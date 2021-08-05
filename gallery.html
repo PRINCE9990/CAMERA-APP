@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 16px;
+        }
+        .media-container{
+            border: 1px solid;
+            height: 250px;
+            width: 240px;
+        }
+        .media{
+            border: 1px solid;
+            height: 80%;
+            width: 100%;
+        }
+        .download{
+            border: 1px solid;
+            height: 10%;
+            width: 100%;
+        }
+        .delete{
+            border: 1px solid;
+            height: 10%;
+            width: 100%;
+        }
+        img,video{
+            height: 100%;
+            width: 100%;
+        }
+
+
+    </style>
+   
+</head>
+<body>
+    <script src="dbScript.js"></script>
+
+    <script>
+        setTimeout(function(){
+            viewMedia()
+        },1000)
+    </script> 
+</body>
+</html>

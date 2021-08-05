@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="filter-container">
+        <div class="filter" style="background-color: #78e08f18;
+        ;background-blend-mode:color;"></div>
+        <div class="filter" style="background-color: #e58f2638;
+        ;background-blend-mode:color-burn;"></div>
+        <div class="filter" style="background-color: #1e37994f;
+        ;background-blend-mode:color-dodge;"></div>
+        <div class="filter" style="background-color: #f368e03b;
+        ;background-blend-mode:darken;"></div>
+        <div class="filter" style="background-color: #6f1e516b;
+        ;background-blend-mode:exclusion;"></div>
+        <div class="filter"></div>
+    </div>
+    <div id="video-container">
+
+        <video controls muted autoplay style="transform:scale(1)"></video>
+
+    </div>
+    <div class="zoom-container">
+        <div class="zoom-in">+</div>
+        <div class="zoom-out">-</div>
+    </div>
+
+    <button id="record">
+        <div></div>
+    </button>
+
+    <button id="capture">
+        <div></div>
+    </button>
+    <button id = "gallery">Gallery</button>
+    <script src="dbScript.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
