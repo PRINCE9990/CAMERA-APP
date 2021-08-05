@@ -23,7 +23,7 @@ function addMedia(media, type) {
 function deleteMedia(id) {
   if (!db) return;
   let tx = db.transaction("Gallery", "readwrite"); //mujhe transaction krni h yani maine kuch likhna h db m to mujhe access do database ka aur mujhe likhna h isliye readwrite agr akela pdna hota to readonly
-  let gallery = tx.objectStore("Gallery");
+  let gallery = tx.objectStore("Gallery");//kdhgkjdh
   gallery.delete(Number(id));
 }
 function viewMedia() {
